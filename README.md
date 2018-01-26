@@ -1,2 +1,2 @@
 # zhou.github.io
-a website for myself
+a website for zhou
