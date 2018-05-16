@@ -13,14 +13,13 @@ View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
 Fall 2014 - current. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.
 
 ## Work Experience
-Jan 2018 - current. Lab Researcher. COVISS lab.  
-(/n)Jan 2016 - May 2016. Programming Teaching Assistant. Department of Engineering.
-(/n)Sep 2015 - current. Student Tutor. EOP program. 
-(/n)Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS.
+Jan 2018 - current. Lab Researcher. COVISS lab.     
+Jan 2016 - May 2016. Programming Teaching Assistant. Department of Engineering.    
+Sep 2015 - current. Student Tutor. EOP program.     
+Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS.    
 
 ### Support from Github.io
 ### Markdown
-
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
@@ -40,5 +39,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
