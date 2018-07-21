@@ -9,8 +9,8 @@ https://zhou-1.github.io/Personal-Blog/
 View Zhou's [Zhihu paragraphs](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests 
-[Special Effects]
-[personal-made cartoon]
+[Special Effects]      
+[personal-made cartoon]     
 
 ## Github
 View Zhou's [GitHub](https://github.com/zhou-1).
