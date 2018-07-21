@@ -3,17 +3,17 @@ https://zhou-1.github.io/Personal-Blog/
 <hr>
 
 ## Work & Papers
-
+[papers]
 
 ## Paragraphs
 View Zhou's [Zhihu paragraphs](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests 
-
+[Special Effects]
+[personal-made cartoon]
 
 ## Github
 View Zhou's [GitHub](https://github.com/zhou-1).
-
 
 ## Kaggle
 View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
@@ -27,24 +27,3 @@ Jan 2016 - May 2016. Programming Teaching Assistant. Department of Engineering.
 Sep 2015 - current. Student Tutor. EOP program.     
 Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS.    
 
-
-### Markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
