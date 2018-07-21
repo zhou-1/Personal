@@ -8,7 +8,7 @@ https://zhou-1.github.io/Personal-Blog/
 ## Paragraphs
 View Zhou's [Zhihu paragraphs](https://www.zhihu.com/people/zhou-65-48/posts).
 
-## Intrests 
+## Interests 
 
 
 ## Github
