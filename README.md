@@ -1,6 +1,6 @@
 # Welcome to Zhou's Pages   
 https://zhou-1.github.io/Personal/  
-</hr>
+<hr>
 
 ## Github
 View Zhou's [GitHub](https://github.com/zhou-1).
