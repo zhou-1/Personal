@@ -1,0 +1,34 @@
+---
+title: 2.Add Two Numbers   
+---
+
+# {{ page.title }}
+
+## 目录
++ [Question Description](#partI)
++ [My Thoughts](#partII)
++ [Code Exhibition](#partIII)
+
+----------------------------------
+
+## Question Description
+My own language for describing question.    
+
+
+
+----------------------------------
+
+## My Thoughts
+My thoughts for solving question after thinking and see others' solving methods.    
+
+
+
+----------------------------------
+
+## Code Exhibition
+Code in Java.    
+
+
+
+
+{{ page.date|date_to_string }}
