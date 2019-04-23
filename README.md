@@ -2,9 +2,12 @@
 https://zhou-1.github.io/Personal-Blog/
 <hr>
 
-## Work & Papers
-[papers]
-[FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces](https://arxiv.org/abs/1902.06806#)
+## Projects & Papers   
+[papers]      
+[FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces](https://arxiv.org/abs/1902.06806#)    
+
+[Projects]     
+
 
 
 ## Paragraphs
