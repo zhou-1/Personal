@@ -2,6 +2,8 @@
 https://zhou-1.github.io/Personal-Blog/
 <hr>
 
+## Education
+Fall 2014 - Dec 2018. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.    
 
 ## Work Experience   
 Jan 2019 - current. Software Develop Engineer Intern.   
@@ -43,10 +45,4 @@ View Zhou's [GitHub](https://github.com/zhou-1).
 
 ## Kaggle
 View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
-
-## Education
-Fall 2014 - Dec 2018. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.  
-
-
-
 
