@@ -2,17 +2,6 @@
 https://zhou-1.github.io/Personal-Blog/
 <hr>
 
----
-title: My Blog
----
-
-{{ page.title }}
-
-{% for post in site.posts %}
-
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-
-{% endfor %}
 
 ## Work Experience   
 Jan 2019 - current. Software Develop Engineer Intern.   
@@ -22,6 +11,16 @@ May 2017 - Aug 2017. Web Developer Intern. ExpressToChina company @Milwaukee&Chi
 Jan 2016 - May 2016. Programming Teaching Assistant. Department of MSCS @MU.    
 Sep 2015 - May 2018. Student Tutor. EOP program.     
 Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.    
+
+## LeetCode Thoughts    
+{{ page.title }}
+
+{% for post in site.posts %}
+
+{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+
+{% endfor %}  
+
 
 ## Projects & Papers   
 [papers]      
