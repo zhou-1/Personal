@@ -34,7 +34,7 @@ Accepted and presented at 2019 IEEE Winter Conference on Applications of Compute
 
 
 ## Paragraphs
-View Zhou's [Zhihu paragraphs](https://www.zhihu.com/people/zhou-65-48/posts).
+View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests     
 [personal-made cartoon]       
