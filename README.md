@@ -2,6 +2,18 @@
 https://zhou-1.github.io/Personal-Blog/
 <hr>
 
+---
+title: My Blog
+---
+
+{{ page.title }}
+
+{% for post in site.posts %}
+
+{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+
+{% endfor %}
+
 ## Work Experience   
 Jan 2019 - current. Software Develop Engineer Intern.   
 Jan 2018 - Dec 2018. Lab Researcher. COVISS lab.    
