@@ -46,6 +46,8 @@ Find the cheapest airline information with Hashtable and Quicksort methods.
 [Teach-Kids-Math-at-Home](https://github.com/zhou-1/Teach-Kids-Math-at-Home)     
 An embedded system project for teaching kids Math at home.    
 
+Some other projects exist in my Github.   
+
 [Industrial]    
 [Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
 Software Projects about industrial camera, computer vision and algorithms in C++.      
@@ -55,7 +57,6 @@ Won the First prize in the GE Healthcare Hackathon 2017.
 
 [Insurance-Data-Hackathon](https://github.com/zhou-1/Insurance-Data-Hackathon)      
 Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
-
 
 ## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
