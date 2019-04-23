@@ -30,6 +30,7 @@ Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.
 Accepted and presented at 2019 IEEE Winter Conference on Applications of Computer Vision (WACV). 10 pages    
 
 [Projects]  
+[Academic]    
 [IoT-connected-devices with Machine Learing](https://github.com/zhou-1/IoT-connected-devices)     
 Senior-year-design project for Direct Supply.    
 
@@ -45,13 +46,24 @@ Find the cheapest airline information with Hashtable and Quicksort methods.
 [Teach-Kids-Math-at-Home](https://github.com/zhou-1/Teach-Kids-Math-at-Home)     
 An embedded system project for teaching kids Math at home.    
 
+[Industrial]    
+[Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
+Software Projects about industrial camera, computer vision and algorithms in C++.      
+
+[GE Healthcare Hackathon](https://github.com/zhou-1/predix-engine-dashboard)    
+Won the First prize in the GE Healthcare Hackathon 2017.     
+
+[Insurance-Data-Hackathon](https://github.com/zhou-1/Insurance-Data-Hackathon)      
+Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
 
 
 ## Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests     
-[personal-made cartoon]       
+Fly drone and make a small movie.    
+Travel and maintain my own blog.    
+Volunteer especially in animal-care stuff.    
 
 
 ## Github
