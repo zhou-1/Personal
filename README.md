@@ -19,9 +19,10 @@ View Zhou's [GitHub](https://github.com/zhou-1).
 View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
 
 ## Education
-Fall 2014 - current. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.
+Fall 2014 - Dec 2018. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.  
 
-## Experience
+## Work Experience   
+Jan 2019 - current. Software Engineer Intern.   
 Jan 2018 - Dec 2018. Lab Researcher. COVISS lab.    
 Aug 2017 - Dec 2017. General Engineering Teaching Assistant. Department of Engineering @MU.   
 Jan 2016 - May 2016. Programming Teaching Assistant. Department of MSCS @MU.    
