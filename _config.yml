@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal 
 title: "'Hello, world!' From another world" 
-logo: /_img/pickupmom.jpg
+logo: ./_img/pickupmom.jpg
 description: "Feel free to build this world better" 
