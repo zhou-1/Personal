@@ -29,7 +29,21 @@ Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.
 [FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces](https://arxiv.org/abs/1902.06806#)      
 Accepted and presented at 2019 IEEE Winter Conference on Applications of Computer Vision (WACV). 10 pages    
 
-[Projects]     
+[Projects]  
+[IoT-connected-devices with Machine Learing](https://github.com/zhou-1/IoT-connected-devices)     
+Senior-year-design project for Direct Supply.    
+
+[Google page rank algorithm project](https://github.com/zhou-1/Algorithm/tree/master/Google%20page%20rank%20algorithm%20project)      
+A research project about a mini website with Google page rank algorithm in Matlab.    
+
+[Flight Assistant Project](https://github.com/zhou-1/Algorithm/tree/master/Flight%20Assistant%20Project)     
+Find the cheapest airline information with Hashtable and Quicksort methods.     
+
+[Programming-computer-games](https://github.com/zhou-1/Programming-computer-games)     
+2D and 3D games in Java.       
+
+[Teach-Kids-Math-at-Home](https://github.com/zhou-1/Teach-Kids-Math-at-Home)     
+An embedded system project for teaching kids Math at home.    
 
 
 
