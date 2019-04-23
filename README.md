@@ -4,6 +4,8 @@ https://zhou-1.github.io/Personal-Blog/
 
 ## Work & Papers
 [papers]
+[FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces](https://arxiv.org/abs/1902.06806#)
+
 
 ## Paragraphs
 View Zhou's [Zhihu paragraphs](https://www.zhihu.com/people/zhou-65-48/posts).
