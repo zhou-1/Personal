@@ -57,7 +57,7 @@ Won the First prize in the GE Healthcare Hackathon 2017.
 Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
 
 
-## Paragraphs
+## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests     
