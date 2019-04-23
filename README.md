@@ -15,8 +15,6 @@ Sep 2015 - May 2018. Student Tutor. EOP program.
 Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.    
 
 ## LeetCode Thoughts    
-{{ page.title }}
-
 {% for post in site.posts %}
 
 {{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
