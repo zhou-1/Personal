@@ -1,5 +1,6 @@
 ---
-title: 1.TwoSum (easy)  
+title: 1.TwoSum (easy)    
+permalink: 1.TwoSum (easy)  
 ---
 
 # {{ page.title }}
