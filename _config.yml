@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 title: Zhou's personal blog.   
 logo: /img/logo.png
 description: Record anything interesting and technical.  
-permalink: postTitle   
+permalink: title   
