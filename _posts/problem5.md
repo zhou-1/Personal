@@ -2,7 +2,10 @@
 title: 5. Longest Palindromic Substring (medium)  	     
 ---
 
-# {{ page.title }}
+# {{ page.title }}    
+
+2019-04-24    
+String, Dynamic Programming   
 
 ## Catalog
 + [Question Description](#partI)
