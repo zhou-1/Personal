@@ -60,7 +60,7 @@ Won the Best algorithm prize. Based on big data from NWMutual, predict who/which
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
 ## Interests     
-Fly drone and make a small movie.    
+Fly drone and make small videos.    
 Travel and maintain my own blog.    
 Volunteer especially in animal-care stuff.    
 
