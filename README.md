@@ -17,7 +17,7 @@ Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.
 ## LeetCode Thoughts    
 {% for post in site.posts %}
 
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+<a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
 
 {% endfor %}  
 
