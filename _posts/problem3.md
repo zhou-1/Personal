@@ -2,7 +2,10 @@
 title: 3. Longest Substring Without Repeating Characters (medium)  
 ---
 
-# {{ page.title }}
+# {{ page.title }}    
+
+2019-04-23    
+Hash Table, Two Pointers, String, Sliding Window   
 
 ## Catalog
 + [Question Description](#partI)
