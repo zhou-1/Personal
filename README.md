@@ -48,7 +48,7 @@ Some other projects exist in my Github.
 
 [Industrial]    
 [Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
-Software Projects about industrial camera, computer vision and algorithms in C++.      
+Software Projects about industrial camera, computer vision and algorithms in C++ and JAVA.        
 
 [GE Healthcare Hackathon](https://github.com/zhou-1/predix-engine-dashboard)    
 Won the First prize in the GE Healthcare Hackathon 2017.     
