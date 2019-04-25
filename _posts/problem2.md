@@ -2,7 +2,10 @@
 title: 2. Add Two Numbers (medium)     
 ---
 
-# {{ page.title }}
+# {{ page.title }}    
+
+2019-04-23    
+Linked List, Math   
 
 ## Catalog
 + [Question Description](#partI)
