@@ -4,6 +4,9 @@ title: 1.TwoSum (easy)
 
 # {{ page.title }}
 
+2019-04-23    
+Array, HashTable   
+
 ## Catalog  
 + [Question Description](#partI)
 + [My Thoughts](#partII)
