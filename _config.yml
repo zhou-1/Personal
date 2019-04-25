@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal 
 title: Zhou's personal blog.   
-logo: /_img/logo.png
+logo: /img/logo.png
 description: Record anything interesting and technical.  
 permalink: postTitle   
