@@ -2,7 +2,10 @@
 title: 4.	Median of Two Sorted Arrays (Hard)       
 ---
 
-# {{ page.title }}
+# {{ page.title }}    
+
+2019-04-23    
+Array, Binary Search, Divide and Conquer   
 
 ## Catalog
 + [Question Description](#partI)
