@@ -1,7 +1,7 @@
 # Hash Map    
 Not ensure thread safe. Can use null as key. Initial volume is 16.       
 Array + Linked list      
-<b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in map, it will return true.       
+<b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in map, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.            
 
 
 # Hash Table    
