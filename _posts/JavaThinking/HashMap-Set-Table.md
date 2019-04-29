@@ -15,4 +15,6 @@ Array + Linked list
 
 # Hash Set   
 Not the construction of key-value, only store the elements not same, we can say HashSet as basic HashMap only keeps the key.    
+Creating ways:    
+HashSet<Integer> set = new HashSet<Ineteger>(nums.length);     
 
