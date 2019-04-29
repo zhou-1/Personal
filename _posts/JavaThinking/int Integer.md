@@ -9,3 +9,5 @@ Integer actually is used for object, when we new a Integer, it generates a point
 Default value of Integer is null.    
 Used for reference type, key and value in HashMap are both object which means reference type
 
+
+In the range of -128 ~ 127, use == is correct.   
