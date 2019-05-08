@@ -5,12 +5,14 @@ HashSet<Integer> set = new HashSet<Ineteger>(nums.length);
 
 
 # Hash Map    
-Not ensure thread safe. Can use null as key. Initial volume is 16.       
-Array + Linked list      
-<b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in map, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
+Not ensure thread safe. Can use null as key. Initial volume is 16.        
+Array + Linked list        
 Creating ways:   
 HashMap<Character, Integer> HM = new HashMap<Character, Integer>(); //need to mark type in <>    
 HashMap HM = new HashMap(); //no need for clarifying type    
+<b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
+<b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.    
+
 
 
 
