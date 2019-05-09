@@ -1,4 +1,4 @@
-# contact two string    
+# concat two string    
         
         String s = "Address of zhou's blog：";
         s = s.concat("https://zhou-1.github.io/Personal-Blog/");
