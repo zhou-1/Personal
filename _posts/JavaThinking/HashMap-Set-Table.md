@@ -1,11 +1,12 @@
 # Hash Set   
-Not the construction of key-value, only store the elements not same, we can say HashSet as basic HashMap only keeps the key.    
+Not the construction of key-value, <b> only store the elements not same </b> , we can say HashSet as basic HashMap only keeps the key.    
 Creating ways:    
 HashSet<Integer> set = new HashSet<Ineteger>(nums.length);     
 
 
 # Hash Map    
-Not ensure thread safe. Can use null as key. Initial volume is 16.        
+Not ensure thread safe. Can use null as key. Initial volume is 16.       
+<b> cannot store the same elements as key </b>    
 Array + Linked list        
 Creating ways:   
 HashMap<Character, Integer> HM = new HashMap<Character, Integer>(); //need to mark type in <>    
