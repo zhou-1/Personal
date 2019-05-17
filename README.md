@@ -10,6 +10,7 @@ Jan 2019 - current. Software Develop Engineer Intern.
 Jan 2018 - Dec 2018. Lab Researcher. COVISS lab.    
 Aug 2017 - Dec 2017. General Engineering Teaching Assistant. Department of Engineering @MU.    
 May 2017 - Aug 2017. Web Developer Intern. ExpressToChina company @Milwaukee&Chicago.   
+Aug 2016 - May 2017. Student Worker. IT Help Center @MU.   
 Jan 2016 - May 2016. Programming Teaching Assistant. Department of MSCS @MU.    
 Sep 2015 - May 2018. Student Tutor. EOP program.     
 Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.    
