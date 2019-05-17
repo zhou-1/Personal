@@ -12,9 +12,22 @@ Creating ways:
 HashMap<Character, Integer> HM = new HashMap<Character, Integer>(); //need to mark type in <>    
 HashMap HM = new HashMap(); //no need for clarifying type      
 
+<b>HashMap.keySet() </b> get all of the key of Map, it actually returns a set of all keys.    
+<b>HashMap.values() </b> get all of the value of Map, it actually returns a collection of all values.           
 <b>HashMap.put(key, value) </b> insert mapping into mapping. We can have new value instead of previous value; if we pass one new key and value pair, they will be new.      
 <b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
-<b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.    
+<b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.     
+
+## Iterate HashMap     
+Use iterator()    
+
+    Map map = new HashMap();
+    Iterator iter = map.entrySet().iterator();
+    while (iter.hasNext()) {
+      Map.Entry entry = (Map.Entry) iter.next();
+      Object key = entry.getKey();
+      Object val = entry.getValue();
+    }
 
 
 
