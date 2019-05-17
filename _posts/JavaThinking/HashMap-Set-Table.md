@@ -21,13 +21,13 @@ HashMap HM = new HashMap(); //no need for clarifying type
 ## Iterate HashMap     
 Use iterator()    
 
-    Map map = new HashMap();   
-    Iterator iter = map.entrySet().iterator();   
-    while (iter.hasNext()) {   
-        Map.Entry entry = (Map.Entry) iter.next();   
-        Object key = entry.getKey();   
-        Object val = entry.getValue();   
-    }   
+     Map map = new HashMap();   
+     Iterator iter = map.entrySet().iterator();   
+     while (iter.hasNext()) {   
+         Map.Entry entry = (Map.Entry) iter.next();   
+         Object key = entry.getKey();   
+         Object val = entry.getValue();   
+     }   
 
 
 
