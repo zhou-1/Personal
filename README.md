@@ -62,8 +62,9 @@ View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-4
 
 ## Interests     
 Fly drone and make small videos.    
+Write my own fiction in Chinese.    
 Travel and maintain my own blog.    
-Volunteer especially in animal-care stuff.    
+Volunteer especially in animal-care stuff.       
 
 
 ## Github
