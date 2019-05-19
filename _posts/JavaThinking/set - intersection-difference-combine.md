@@ -1,7 +1,7 @@
 # Intersection      
 get the same elements from two group.   
 retainAll(), if we have two <b> sets/lists </b>, newCourses and oldCourses. When we use oldCourses.retainAll(newCoures), if there are same elements between two sets, oldCourses includes same elements; otherwise, oldCourses become emepty.    
-i.e. oldCourses = [1, 3, 5], newCourses = [1, 2, 3], use oldCourses.retainAll(newCoures), Intersection result will be [1, 3]   
+i.e. oldCourses = [1, 3, 5], newCourses = [1, 2, 3], use oldCourses.retainAll(newCoures), Intersection result will be [1, 3]     
 
 
 # Difference   
