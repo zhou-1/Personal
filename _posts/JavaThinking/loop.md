@@ -15,4 +15,5 @@ equals to:
       i++;
     }
 
+Note: In for loop, ++i same to i++.     
 
