@@ -11,3 +11,6 @@ It is created by two-directed linked list.
 Compare with ArrayList, it is quicker at add and delte, slower at query and modify the value.     
 
     LinkedList<Integer> linkedList = new LinkedList<Integer>();
+
+<b> linkedList().clear() </b> loop through items, free all of the elemnts, set all of previous an dnext pointer to null.     
+
