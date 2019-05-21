@@ -26,14 +26,22 @@ A First-In-First-Out data structure. It is created by LinkedList.
     Queue<Employee> queue = new LinkedList<>();
 
 Methods:    
-add        add an element                                           If queue is full, throw out IIIegaISlabEepeplian     
-remove     remove and return element at begin/head of the queue     If queue is empty, throw out NoSuchElementException    
-element    return element at the head of the queue                  If queue is empty, throws out NoSuchElementException     
-offer      add amn element and return true                          If queue is full, return false    
-poll       remove and return the element at head of the queue       If queue is empty, return null       
-peek       return element at head of the queue                      If queue is empty, return nul    
-put        add an element                                           If queue is full, then block    
-take       remove and return the element at head of the queue       If queue is empty, then block       
+add        
+add an element                                           If queue is full, throw out IIIegaISlabEepeplian      
+remove     
+remove and return element at begin/head of the queue     If queue is empty, throw out NoSuchElementException    
+element    
+return element at the head of the queue                  If queue is empty, throws out NoSuchElementException     
+offer      
+add amn element and return true                          If queue is full, return false    
+poll      
+remove and return the element at head of the queue       If queue is empty, return null       
+peek       
+return element at head of the queue                      If queue is empty, return nul    
+put        
+add an element                                           If queue is full, then block    
+take       
+remove and return the element at head of the queue       If queue is empty, then block       
 
 remove、element、offer 、poll、peek belongs to Queue interface.       
 
