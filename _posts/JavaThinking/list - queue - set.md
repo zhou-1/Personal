@@ -25,6 +25,7 @@ A First-In-First-Out data structure. It is created by LinkedList.
 
     Queue<Employee> queue = new LinkedList<>();
 
+Methods:    
 add        add an element                                           If queue is full, throw out IIIegaISlabEepeplian     
 remove     remove and return element at begin/head of the queue     If queue is empty, throw out NoSuchElementException    
 element    return element at the head of the queue                  If queue is empty, throws out NoSuchElementException     
@@ -37,6 +38,17 @@ take       remove and return the element at head of the queue       If queue is 
 remove、element、offer 、poll、peek belongs to Queue interface.       
 
 
+## 3. Set     
+Set has HashSet and TreeSet, do not allow duplicates inside and elements inside are random.       
+
+Methods:     
+add( )         add elements to set       	
+clear( )       remove all of the elements of set       	
+contains( )    determine whether the set contain one element or nor     	
+isEmpty( )     determin whether the set is empty      
+iterator( )    mainly used for iteration, returns a Iterator() object        
+remove( )      remove specified object from the set      
+size( )        return the size of the set         
 
 
 
