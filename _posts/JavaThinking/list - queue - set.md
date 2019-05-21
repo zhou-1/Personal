@@ -33,7 +33,7 @@ remove and return element at begin/head of the queue     If queue is empty, thro
 element    
 return element at the head of the queue                  If queue is empty, throws out NoSuchElementException     
 offer      
-add amn element and return true                          If queue is full, return false    
+add an element and return true                          If queue is full, return false    
 poll      
 remove and return the element at head of the queue       If queue is empty, return null       
 peek       
