@@ -1,5 +1,11 @@
 ## Cannot use .contains() in array     
-Use for loop to determine each element; or use Arrays.asList(array), then use .contains()    
+Use for loop to determine each element; or use Arrays.asList(array), then use .contains()     
+
+我们再来看看contains操作，可以看到实际调用的是indexOf方法。回到我们的代码中ints[i] 是int型（这里调用contains的时候自动打包成Integer类型，自动装箱）。所以再这个indexOf中比较时实际调用的是Integer.equals。    
+由于我们初始化ArrayList的时候使用的是int[] ，所以在调用o.equals(a[i])的时候，传入的a[i]也是int型的。至此，obj instanceof Integer永远是false。所以在我们代码中，用Array.asList().contains判断某个数是否在数组中存在是不可行的。    
+替代工具ArrayUtils：是common.lang中的一个方法类。 我们可以借助该类来确定一个数组中是否含有某个值。可以替换为ArrayUtils.contains(result,ints[i])    
+原文：https://blog.csdn.net/syy19940213/article/details/80944681    
+
 
 
 
