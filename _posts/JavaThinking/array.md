@@ -20,3 +20,17 @@ If there is no parameter in list.toArray(), then the type of converted data is o
 We can cast Object[] to String[] if we use <b> list.toArray(new String[0]) </b>    
 We can cast Object[] to int[] if we use <b> list.toArray(new int[0]) </b>     
 
+## Arrays.copyof()    
+copy the original array and be the length we need.    
+
+    int[] copied = Arrays.copyOf(arr, 10); //10 the the length of the new array
+    System.out.println(Arrays.toString(copied));
+ 
+    copied = Arrays.copyOf(arr, 3);
+    System.out.println(Arrays.toString(copied));
+
+Result will be:    
+
+    [1, 2, 3, 4, 5, 0, 0, 0, 0, 0]
+    [1, 2, 3]
+
