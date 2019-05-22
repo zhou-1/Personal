@@ -1,3 +1,8 @@
+## Cannot use .contains() in array     
+Use for loop to determine each element; or use Arrays.asList(array), then use .contains()    
+
+
+
 ## Two-dimensional array       
 int[][] arr = new int[3][5]; //An int-type two-dimensional array, includes 3 one-dimensional array and each can store 5 ints    
 int[0] //first one-dimensional array    
