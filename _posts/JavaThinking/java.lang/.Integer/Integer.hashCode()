@@ -1,0 +1,6 @@
+<b> It returns the hash value in int type of this Integer object. </b>   
+
+    Integer.hashCode(key);
+
+When we new one Object in JVM, it will put this Object into Hash table; then next time, it can get this Object by its hashcode.      
+
