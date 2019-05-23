@@ -23,11 +23,11 @@ Use iterator()
 
      Map map = new HashMap();   
      Iterator iter = map.entrySet().iterator();   
-     while (iter.hasNext()) {   
-         Map.Entry entry = (Map.Entry) iter.next();   
-         Object key = entry.getKey();   
-         Object val = entry.getValue();   
-     }   
+      while (iter.hasNext()) {   
+          Map.Entry entry = (Map.Entry) iter.next();   
+          Object key = entry.getKey();   
+          Object val = entry.getValue();   
+      }   
 
  
 
@@ -37,8 +37,18 @@ Use synchronized to ensure thread safe. Cannot use null as key. Initial volume i
 Array + Linked list    
 
 
-HashMap & HashTable    
+
+## HashMap & HashTable    
 same: both of them store key-value   
-difference: default initial volume is different, Map is 16, Table is 11; Hashtable is thread-safe, HashMap is not; HashTable allows the key be empty, HashMap allows the key and value be empty; the way iterating is different, HashMap is from front to back, then iterate from the start from the beginning  of specific linked list of array; HashTable is from back to front, then iterate from the start from the beginning  of specific linked list of array.     
+difference: 
+Hashtable is "older" than HashMap, but few people using it now.    
+Hashtable is from Dictionary class, Hashmap is from AbstractMap class.    
+Default initial volume is different, Hashtable is 11, Hashmap is 16.    
+Every time later it dilatates, Hashtable will become (2n + 1) of original, Hashmap will become (2n).     
+Hashtable is thread-safe which makes low-efficient, HashMap is not.       
+Hashtable allows the key be empty, HashMap allows the key and value be empty.      
+Hashtable doesn't support Null key or Null value, HashMap can have one Null key and Null values.    
+The way iterating is different, HashMap is from front to back, then iterate from the start from the beginning  of specific linked list of array; HashTable is from back to front, then iterate from the start from the beginning  of specific linked list of array.      
+
 
 
