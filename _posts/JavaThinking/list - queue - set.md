@@ -24,6 +24,9 @@ Compare with ArrayList, it is quicker at add and delte, slower at query and modi
 visit element complexity: O(n); add/delete element complecity: O(1)
 
 There are linked list nodes inside, they have attributes to visit previous(.prev), current(.item) and next node(.next). 
+<b> ListNode </b> we can also build this:     
+
+    final ListNode[] nodes = new ListNode[10000];  
 
 
 ## 2. queue    
