@@ -6,7 +6,8 @@
 It is created by array, it is kind of like array but can change the size.    
 
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
-
+    
+visit element complexity: O(1); add/delete element complecity: O(n)     
 
 ### LinkedList    
 It is created by two-directed linked list.       
@@ -19,6 +20,11 @@ Compare with ArrayList, it is quicker at add and delte, slower at query and modi
 <b> linkedList.clear() </b> loop through items, free all of the elemnts, set all of previous an dnext pointer to null.     
 <b> linkedList.get(int index) </b> get the node at the pointed place        
 <b> linkedList.contains() </b> return the length of linked list/number of nodes     
+
+visit element complexity: O(n); add/delete element complecity: O(1)
+
+There are linked list nodes inside, they have attributes to visit previous(.prev), current(.item) and next node(.next). 
+
 
 ## 2. queue    
 A First-In-First-Out data structure. It is created by LinkedList.         
