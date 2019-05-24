@@ -18,6 +18,13 @@ HashMap HM = new HashMap(); //no need for clarifying type
 <b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
 <b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.     
 
+## Hash Collision    
+HashMap is using Hash Algorithm to determine the store place of each element, every Java object can use hashCode() method to get the value of hash code. Based on this hash code, system determines the place. <b> But if the place has already placed by other element(s), </b> it is called hash collision.      
+Hash map in java is using one-way linked list to solve this problem.      
+<b> load factor and threshold attributes </b> of Hash Map:    
+load factor stands for how many elements in hash map, if it is bigger, the rate of using space is higher, the chance of hash collision is higher but the efficiency of search is lower; if it is smaller, the rate of using space is lower, the chance of hash collision is lower but the efficiency of search is higher; so we need a balance, default is good, 0.75.     
+threshold is size of hash map * load factor; if actual size of hash map is bigger than threshold, we need to resize (make it bigger) the hash map.      
+
 ## Iterate HashMap     
 Use iterator()    
 
