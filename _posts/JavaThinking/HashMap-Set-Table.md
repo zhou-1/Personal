@@ -24,6 +24,7 @@ Hash map in java is using one-way linked list to solve this problem.
 <b> Load factor and Threshold attributes </b> of Hash Map:    
 Load Factor stands for how many elements in hash map, if it is bigger, the rate of using space is higher, the chance of hash collision is higher but the efficiency of search is lower; if it is smaller, the rate of using space is lower, the chance of hash collision is lower but the efficiency of search is higher; so we need a balance, default is good, 0.75.     
 Threshold is size of hash map * load factor; if actual size of hash map is bigger than threshold, we need to resize (make it bigger) the hash map.      
+[More details](https://www.cnblogs.com/peizhe123/p/5790252.html)    
 
 ## Iterate HashMap     
 Use iterator()    
