@@ -15,6 +15,8 @@ Compare with ArrayList, it is quicker at add and delte, slower at query and modi
 
     LinkedList<Integer> linkedList = new LinkedList<Integer>();
 
+Good for processing data for several times.    
+
 <b> linkedList.add() </b> add one new node to end of the linked list.    
 <b> linkedList.addFirst() </b> add one new node to start of the linked list.     
 <b> linkedList.clear() </b> loop through items, free all of the elemnts, set all of previous an dnext pointer to null.     
@@ -33,6 +35,8 @@ There are linked list nodes inside, they have attributes to visit previous(.prev
 A First-In-First-Out data structure. It is created by LinkedList.         
 
     Queue<Employee> queue = new LinkedList<>();
+
+Good for processing data once.   
 
 Methods:    
 add        
