@@ -72,4 +72,19 @@ remove( )      remove specified object from the set
 size( )        return the size of the set         
 
 
+## 4. Stack    
+A Last-In-First-Out structure. Can only add/remove element at one end. It is created by Array.      
+In java, it is a function without parameters.    
+
+    Stack<Integer> stack = new Stack<> ();
+
+Methods:
+push();  //add element    
+pop();  //remove element from stack
+empty() //determine stack is empty or not
+peek() //get element from top of stack
+search(x) //determin element x in stack or not; if so, return 1; else, return -1       
+pop() will pop element out of stack and return the element; peek() will just get the value.     
+
+
 
