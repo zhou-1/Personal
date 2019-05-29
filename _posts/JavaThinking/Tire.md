@@ -32,6 +32,26 @@ A link does not exist. Then we create a new node and link it with the parent's l
      }
     }
 
+Time complexity : O(m), where m is the key length.         
+Space complexity : O(m).       
+
+## Search for a key in a trie     
+Each key is represented in the trie as a path from the root to the internal node or leaf. We start from the root with the first key character. We examine the current node for a link corresponding to the key character. There are two cases:     
+A link exist. We move to the next node in the path following this link, and proceed searching for the next key character.      
+A link does not exist. If there are no available key characters and current node is marked as isEnd we return true. Otherwise there are possible two cases in each of them we return false:      
+There are key characters left, but it is impossible to follow the key path in the trie, and the key is missing;     
+No key characters left, but current node is not marked as isEnd. Therefore the search key is only a prefix of another key in the trie.       
+
+
+
+
+
+
+
+
+
+
+
 
 
 
