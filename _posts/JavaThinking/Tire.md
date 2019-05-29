@@ -4,6 +4,33 @@ Trie (we pronounce "try") or prefix tree is a tree data structure (rooted tree),
 There are several other data structures, like balanced trees and hash tables, which give us the possibility to search for a word in a dataset of strings. Then why do we need trie? Although hash table has O(1) time complexity for looking for a key, it is not efficient in the following operations: Finding all keys with a common prefix. Enumerating a dataset of strings in lexicographical order.     
 Another reason why trie outperforms hash table, is that as hash table increases in size, there are lots of hash collisions and the search time complexity could deteriorate to O(n), where nn is the number of keys inserted. Trie could use less space compared to Hash Table when storing many keys with the same prefix. In this case using trie has only O(m) time complexity, where mm is the key length. Searching for a key in a balanced tree costs O(mlogn) time complexity.         
 
+## Insertion of a key to a trie     
+We insert a key by searching into the trie. We start from the root and search a link, which corresponds to the first key character. There are two cases:     
+A link exists. Then we move down the tree following the link to the next child level. The algorithm continues with searching for the next key character.       
+A link does not exist. Then we create a new node and link it with the parent's link matching the current key character. We repeat this step until we encounter the last character of the key, then we mark the current node as an end node and the algorithm finishes.      
+
+字典树（Trie）可以保存一些字符串->值的对应关系。基本上，它跟 Java 的 HashMap 功能相同，都是 key-value 映射，只不过 Trie 的 key 只能是字符串。     
+
+    class Trie {
+     private TrieNode root;
+
+     public Trie() {
+        root = new TrieNode();
+     }
+
+     // Inserts a word into the trie.
+     public void insert(String word) {
+        TrieNode node = root;
+        for (int i = 0; i < word.length(); i++) {
+            char currentChar = word.charAt(i);
+            if (!node.containsKey(currentChar)) {
+                node.put(currentChar, new TrieNode());
+            }
+            node = node.get(currentChar);
+        }
+        node.setEnd();
+     }
+    }
 
 
 
