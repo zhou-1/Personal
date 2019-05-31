@@ -28,5 +28,7 @@ Finds X directly followed by Z.
 10 $    
 Checks if a line end follows.       
 
+https://www.vogella.com/tutorials/JavaRegularExpressions/article.html     
+
 
 
