@@ -17,6 +17,7 @@ HashMap HM = new HashMap(); //no need for clarifying type
 <b>HashMap.put(key, value) </b> insert mapping into mapping. We can have new value instead of previous value; if we pass one new key and value pair, they will be new.      
 <b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
 <b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.     
+<b>HashMap<Character, Integer> charMap = (HashMap<Character, Integer>)map.clone() [map is what we need clone from] / charMap.putAll(map) </b> deep clone from map to charMap. If we modify the elements, both of them will change; but if we add/delete elements, each of them will change its own.      
 
 ## Hash Collision    
 HashMap is using Hash Algorithm to determine the store place of each element, every Java object can use hashCode() method to get the value of hash code. Based on this hash code, system determines the place. <b> But if the place has already placed by other element(s), </b> it is called hash collision.      
