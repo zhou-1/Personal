@@ -3,7 +3,9 @@
 ## string.replace & string.replaceAll()    
 
     string.replace(String str1,String str2); //use str2 to replace of str1         
-    string.replaceAll(String regex, String replacement); //regex is regular rxpression, defines a search pattern for strings.  
+    string.replaceAll(String regex, String replacement); //regex is regular rxpression, defines a search pattern for strings. replacement is used for replace the thing said in regex.       
+    //i.e.     
+    S.replaceAll("[^" + J + "]", "").length();  //use "" replace of (any character except character in string J) in string S     
 
 ## regular expression    
 Common matching symbols
