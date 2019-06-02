@@ -1,3 +1,10 @@
+# array  
+array is fixed once created. We cannot add/delete the length.     
+
+    String[] strings = new String[size()];
+    String[] s = {"a","b","c"};
+    
+
 ## Cannot use .contains() in array     
 Use for loop to determine each element; or use Arrays.asList(array), then use .contains()     
 
