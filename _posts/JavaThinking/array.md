@@ -41,3 +41,11 @@ Result will be:
     [1, 2, 3, 4, 5, 0, 0, 0, 0, 0]
     [1, 2, 3]
 
+## Arrays.fill()   
+fill the array, first parameter with value, second parameter.     
+
+    int[] array = new int[26];
+    Arrays.fill(array, 5); //array 数组中有26个5.   
+
+
+
