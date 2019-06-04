@@ -2,7 +2,7 @@ collections is a built-in module.
 
 
 ## Counter()    
-It is a basic counter, for example, count for the number of appearence of character.     
+It is a basic counter, for example, count for the number of appearance of character.     
 
     >>> from collections import Counter
     >>> c = Counter()
