@@ -1,4 +1,4 @@
-# [Welcome to Zhou's Blog!](https://zhou-1.github.io/Personal-Blog/)     
+# [Welcome to Zhou's Blog!](https://zhou-1.github.io/)     
 
 <hr>
 
