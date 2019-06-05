@@ -15,13 +15,6 @@ Jan 2016 - May 2016. Programming Teaching Assistant. Department of MSCS @MU.
 Sep 2015 - May 2018. Student Tutor. EOP program.     
 Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.    
 
-## LeetCode Thoughts    
-{% for post in site.posts %}
-
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-
-{% endfor %}  
-
 
 ## Projects & Papers   
 [papers]      
@@ -60,16 +53,28 @@ Won the Best algorithm prize. Based on big data from NWMutual, predict who/which
 ## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
-## Interests     
-Fly drone and make small videos.    
-Write my own fiction in Chinese.    
-Travel and maintain my own blog.    
+## [Interests](https://github.com/zhou-1/Interests)          
+Create basic AR.      
+Fly drone and make small videos.   
+Travel and maintain my own blog.     
 Volunteer especially in animal-care stuff.       
+Write my own fiction.       
 
 
 ## Github
 View Zhou's [GitHub](https://github.com/zhou-1).
 
+
 ## Kaggle
 View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
+
+
+## LeetCode Thoughts    
+{% for post in site.posts %}
+
+{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
+
+{% endfor %}  
+
+
 
