@@ -14,8 +14,6 @@ Use for loop to determine each element; or use Arrays.asList(array), then use .c
 原文：https://blog.csdn.net/syy19940213/article/details/80944681    
 
 
-
-
 ## Two-dimensional array       
 int[][] arr = new int[3][5]; //An int-type two-dimensional array, includes 3 one-dimensional array and each can store 5 ints    
 int[0] //first one-dimensional array    
@@ -46,6 +44,35 @@ fill the array, first parameter with value, second parameter.
 
     int[] array = new int[26];
     Arrays.fill(array, 5); //array 数组中有26个5.   
+
+## Arrays.asList()    
+transfer array to list.     
+
+type: int
+     
+    int[] datas = new int[]{1,2,3,4,5};
+    List list = Arrays.asList(datas);
+    System.out.println(list.size());
+    //运行结果是1。一个长度为5的数组，转化为List后，长度却成了1。
+
+type: Integer
+
+    Integer[] datas = new Integer[]{1,2,3,4,5};
+    List list = Arrays.asList(datas);
+    System.out.println(list.size());
+
+asList接受的是一个泛型类型的参数，再构造了一个ArrayList。然而基本类型是不支持泛型化的，但是数组支持，所以采用基本类型的数组转化后是将数组放入了构造的ArrayList中，长度是1     
+We cnanot do modify operation on this list, if we want to, transfer this type of list to ava.util.ArrayList     
+
+    Integer[] datas = new Integer[]{1,2,3,4,5};
+    ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(datas));
+
+
+
+
+
+
+
 
 
 
