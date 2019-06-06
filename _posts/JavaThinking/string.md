@@ -7,6 +7,7 @@
     //i.e.     
     S.replaceAll("[^" + J + "]", "").length();  //use "" replace of (any character except character in string J) in string S     
 
+
 ## regular expression    
 Common matching symbols
 1 .      
@@ -32,5 +33,10 @@ Checks if a line end follows.
 
 https://www.vogella.com/tutorials/JavaRegularExpressions/article.html     
 
+
+## String.valueOf()    
+Convert basic data type to String, it is a static method.    
+
+    String.valueOf(int i) //combert int to string
 
 
