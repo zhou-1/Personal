@@ -1,7 +1,11 @@
 # Hash Set   
 Not the construction of key-value, <b> only store the elements not same </b> , we can say HashSet as basic HashMap only keeps the key.    
 Creating ways:    
-HashSet<Integer> set = new HashSet<Ineteger>(nums.length);     
+
+     HashSet<Integer> set = new HashSet<Ineteger>(nums.length);     
+Or we do not have to mention type of data, then we can use mixed types.    
+
+     Set seen = new HashSet();  
 
 
 # Hash Map    
@@ -9,8 +13,9 @@ Not ensure thread safe. Can use null as key. Initial volume is 16.
 <b> cannot store the same elements as key </b>    
 Array + Linked list        
 Creating ways:   
-HashMap<Character, Integer> HM = new HashMap<Character, Integer>(); //need to mark type in <>    
-HashMap HM = new HashMap(); //no need for clarifying type      
+
+     HashMap<Character, Integer> HM = new HashMap<Character, Integer>(); //need to mark type in <>    
+     HashMap HM = new HashMap(); //no need for clarifying type      
 
 <b>HashMap.keySet() </b> get all of the key of Map, it actually returns a set of all keys.    
 <b>HashMap.values() </b> get all of the value of Map, it actually returns a collection of all values.           
