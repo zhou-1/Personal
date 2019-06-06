@@ -18,6 +18,13 @@ when key doesn't exist, if we visit dictionary by key, it will have 'keyError'. 
 
     cntr_lp, res = collections.defaultdict(int), None
 
+语法格式： 
+
+    collections.defaultdict([default_factory[, …]])
+
+该函数返回一个类似字典的对象。defaultdict是Python内建字典类（dict）的一个子类，它重写了方法_missing_(key)，增加了一个可写的实例变量default_factory,实例变量default_factory被missing()方法使用，如果该变量存在，则用以初始化构造器，如果没有，则为None。其它的功能和dict一样。    
+第一个参数为default_factory属性提供初始值，默认为None；其余参数包括关键字参数（keyword arguments）的用法，和dict构造器用法一样。     
+
 
 ## namedtuple
 If we need a tuple to mark a coordinate    
