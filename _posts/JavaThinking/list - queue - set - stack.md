@@ -3,11 +3,6 @@
 ## 1. List    
 In list, elements can be duplicates but in add-in order.      
 
-## array convert to list    
-
-    String[] s = {"a","b","c"};
-    List list = java.util.Arrays.asList(s);
-
 ### ArrayList    
 It is created by array, it is kind of like array but can change the size.    
 
