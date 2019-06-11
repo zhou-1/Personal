@@ -8,6 +8,29 @@
     S.replaceAll("[^" + J + "]", "").length();  //use "" replace of (any character except character in string J) in string S     
 
 
+## String.valueOf()    
+Convert basic data type to String, it is a static method.    
+
+    String.valueOf(int i) //combert int to string
+
+
+## String.substring()     
+substring() 方法返回字符串的子字符串。      
+
+    public String substring(int beginIndex)    
+    OR
+    public String substring(int beginIndex, int endIndex)
+
+<b> It includes beginIndex, doesn't include endIndex. </b>          
+
+i.e.   
+
+    String Str = new String("123456789");
+    Str.substring(4); //56789
+    Str.substring(4, 7);  //567
+
+
+
 ## regular expression    
 Common matching symbols
 1 .      
@@ -32,11 +55,5 @@ Finds X directly followed by Z.
 Checks if a line end follows.       
 
 https://www.vogella.com/tutorials/JavaRegularExpressions/article.html     
-
-
-## String.valueOf()    
-Convert basic data type to String, it is a static method.    
-
-    String.valueOf(int i) //combert int to string
 
 
