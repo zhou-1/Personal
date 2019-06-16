@@ -27,13 +27,13 @@ O(1) Push / O(1) Pop / O(1) Top
 
 
 ## Stack    
-boolean empty() 测试堆栈是否为空。     
+boolean empty() 测试堆栈是否为空     
 
-Object peek() 查看堆栈顶部的对象，但不从堆栈中移除它。    
+Object peek() 查看堆栈顶部的对象，但不从堆栈中移除它         
 
-Object push() 移除堆栈顶部的对象，并作为此函数的值返回该对象。    
+Object push() 把项压入堆栈顶部            
 
-Object pop() 把项压入堆栈顶部。     
+Object pop() 栈结构的实现类的方法，表示返回栈顶的元素，同时该元素从栈中删除，当栈中没有元素时，调用该方法会发生异常          
 
 
 时间复杂度：    
@@ -53,6 +53,7 @@ PriorityQueue
     //In this case, the expression means the n1 n2 should give priority to the number whose count is greater.
     //So, bigger value in the bottom, smaller element on the top
 
+poll() 队列数据结构实现类的方法，从队首获取元素，同时获取的这个元素将从原队列删除        
 
 
 
