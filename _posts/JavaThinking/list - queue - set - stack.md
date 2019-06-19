@@ -42,7 +42,46 @@ public E set(int index, E element) index -- 替换索引的元素;element -- 要
     Number = 55
     Number = 22
 
-#### Iterate elements to delete/remove one    
+#### Iterate elements to delete/remove one element
+1. 不要使用ArrayList的remove，改为用Iterator的remove即可；单纯地使用for(String: list) 这种foreach 写法是对实际的Iterable、hasNext、next方法的简写， 会造成并发修改异常：java.util.ConcurrentModificationException        
+
+        public static void remove(ArrayList<String> list) 
+        {
+            Iterator<String> it = list.iterator();
+            while (it.hasNext()) 
+            {
+                String s = it.next();
+                if (s.equals("b")) 
+                {
+                    it.remove();
+                }
+            }
+        }
+
+2. 对数组进行倒序遍历；即使发生元素删除也不影响后序元素遍历。因为正序遍历（list.get(inti=0;i<list.size();i++)）时，在遍历第一个字符串b时因为符合删除条件，所以将该元素从数组中删除，并且将后一个元素移动（也就是第二个字符串b）至当前位置，导致下一次循环遍历时后一个字符串b并没有遍历到，所以无法删除         
+
+        public static void remove(ArrayList<String> list)
+        {
+            for(inti=list.size()-1;i>=0;i--)
+            {
+                Strings=list.get(i);
+                if(s.equals("b"))
+                {
+                    list.remove(s);
+                }
+            }
+        }
+
+3. 交换要删除的元素和最后一个元素。然后remove “现有的最后一个元素”即可。     
+
+        int loc = map.get(val);
+        if (loc < nums.size() - 1 ) { // not the last one than swap the last one with this val
+            int lastone = nums.get(nums.size() - 1 );
+            nums.set( loc , lastone ); //nums:ArrayList    
+            map.put(lastone, loc);
+        }
+        map.remove(val);
+        nums.remove(nums.size() - 1);
 
 
 
