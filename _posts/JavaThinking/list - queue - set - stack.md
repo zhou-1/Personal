@@ -8,7 +8,23 @@ It is created by array, it is kind of like array but can change the size.
 
     ArrayList<Integer> arrayList = new ArrayList<Integer>();
     
-visit element complexity: O(1); add/delete element complecity: O(n)     
+visit element complexity: O(1); add/delete element complecity: O(n)    
+
+#### Iterator    
+
+    public static void remove(ArrayList<String> list) 
+    {
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()) 
+        {
+            String s = it.next();
+            if (s.equals("b")) 
+            {
+                it.remove();
+            }
+        }
+    }
+
 
 ### LinkedList    
 It is created by two-directed linked list.       
