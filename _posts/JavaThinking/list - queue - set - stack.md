@@ -72,7 +72,7 @@ public E set(int index, E element) index -- 替换索引的元素;element -- 要
             }
         }
 
-3. 交换要删除的元素和最后一个元素。然后remove “现有的最后一个元素”即可。     
+3. "交换"要删除的元素和最后一个元素。然后remove “现有的最后一个元素”即可。It is said "swap" but more like overwrite. We use lastone value overwrite loc value and delete lastone value.          
 
         int loc = map.get(val);
         if (loc < nums.size() - 1 ) { // not the last one than swap the last one with this val
