@@ -3,7 +3,7 @@
 <hr>
 
 ## Education
-Fall 2014 - Dec 2018. BA. Marquette University. Computer Engineering - intelligent system & Mathematics.    
+Fall 2014 - Dec 2018. B.A. in science. Marquette University. Computer Engineering - intelligent system & Mathematics.    
 
 ## Work Experience   
 Jan 2019 - current. Software Develop Engineer Intern.   
