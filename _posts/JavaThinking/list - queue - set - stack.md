@@ -25,6 +25,26 @@ visit element complexity: O(1); add/delete element complecity: O(n)
         }
     }
 
+#### .set    
+public E set(int index, E element) index -- 替换索引的元素;element -- 要被存储在指定位置的元素.       
+
+    arrlist.add(15);
+    arrlist.add(20);
+    arrlist.add(25);
+    arrlist.add(22);
+
+    // inserting elment 55 at 3rd position
+    arrlist.set(2,55);
+    
+    //answer for new list
+    Number = 15
+    Number = 20
+    Number = 55
+    Number = 22
+
+#### Iterate elements to delete/remove one    
+
+
 
 ### LinkedList    
 It is created by two-directed linked list.       
