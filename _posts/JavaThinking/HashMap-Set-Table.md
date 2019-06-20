@@ -31,7 +31,7 @@ Creating ways:
 <b>HashMap.values() </b> get all of the value of Map, it actually returns a collection of all values.           
 <b>HashMap.put(key, value) </b> insert mapping into mapping. We can have new value instead of previous value; if we pass one new key and value pair, they will be new.      
 <b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
-<b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0.     
+<b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0. Map.getOrDefault(Object key, V defaultValue)方法的作用是：当Map集合中有这个key时，就使用这个key值；如果没有就使用默认值defaultValue         
 <b>HashMap<Character, Integer> charMap = (HashMap<Character, Integer>)map.clone() [map is what we need clone from] / charMap.putAll(map) </b> deep clone from map to charMap. If we modify the elements, both of them will change; but if we add/delete elements, each of them will change its own.      
 
 ## Hash Collision    
