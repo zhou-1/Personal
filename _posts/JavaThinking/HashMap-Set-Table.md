@@ -21,10 +21,12 @@ Creating ways:
 <b>HashMap.entrySet() </b> 返回Map 中的一个实体（一个key-value对），也是一个Set集合；接口中有getKey(),getValue方法      
 
      //第三种：推荐，尤其是容量大时  
-     System.out.println("通过Map.entrySet遍历key和value");  
-     for (Map.Entry<String, String> entry : map.entrySet()) {  
+     
+      System.out.println("通过Map.entrySet遍历key和value");  
+      for (Map.Entry<String, String> entry : map.entrySet()) {  
           System.out.println("key= " + entry.getKey() + " and value= " + entry.getValue());  
-     }  
+      }  
+
 
 <b>HashMap.values() </b> get all of the value of Map, it actually returns a collection of all values.           
 <b>HashMap.put(key, value) </b> insert mapping into mapping. We can have new value instead of previous value; if we pass one new key and value pair, they will be new.      
