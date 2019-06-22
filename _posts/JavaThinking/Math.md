@@ -12,3 +12,8 @@ i.e.
     System.out.printf("e 的值为 %.4f%n", Math.E); //e 的值为 2.7183      
     System.out.printf("pow(%.3f, %.3f) 为 %.3f%n", x, y, Math.pow(x, y)); //pow(11.635, 2.760) 为 874.008   
 
+## .random()    
+取一个大于等于0，小于等于(int) x 的伪随机数      
+Math.random() * x         
+
+
