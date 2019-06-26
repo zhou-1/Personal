@@ -33,7 +33,7 @@ Creating ways:
 <b>HashMap.containsKey() method </b> is used for checking whether specified key map to HashMap, it uses key element as parameter, if element can map in hashmap, it will return true. i.e. hash_map.put(30, "You"); 30 is the key.    
 <b>HashMap.getOrDefault(value, defaultValue) </b> method which can use the key value when Map collection contains key, otherwise use default value which normally is 0. Map.getOrDefault(Object key, V defaultValue)方法的作用是：当Map集合中有这个key时，就使用这个key值；如果没有就使用默认值defaultValue         
 <b>HashMap<Character, Integer> charMap = (HashMap<Character, Integer>)map.clone() [map is what we need clone from] / charMap.putAll(map) </b> deep clone from map to charMap. If we modify the elements, both of them will change; but if we add/delete elements, each of them will change its own.       
-<b> public V computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction) </b> 此方法首先判断缓存MAP中是否存在指定key的值，如果不存在，会自动调用mappingFunction(key)计算key的value，然后将key = value放入到缓存Map。如果mappingFunction(key)返回的值为null或抛出异常，则不会有记录存入map         
+<b> HashMap.computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction) </b> 此方法首先判断缓存MAP中是否存在指定key的值，如果不存在，会自动调用mappingFunction(key)计算key的value，然后将key = value放入到缓存Map。如果mappingFunction(key)返回的值为null或抛出异常，则不会有记录存入map         
 i.e. map.computeIfAbsent(word.length(), x -> new ArrayList()).add(word); 先判断map中是否有word.length() 这个长度，如果有直接将word 加入list；如果没有，算出这个word的长度，然后新建一个ArrayList，再往里加word.      
 
 
