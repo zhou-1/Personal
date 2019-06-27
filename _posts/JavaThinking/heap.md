@@ -3,8 +3,13 @@
 
       PriorityQueue<Integer> heap = new PriorityQueue<> ((n1, n2) -> n1 - n2);
       //comparator written in lambda expression, which specifies how the n1 n2 should compare it's elements. 
-      //In this case, the expression means the n1 n2 should give priority to the number whose value is greater.
+      //In this case, the expression means the n1 n2 should give priority to the number whose value is smaller.
       //So, bigger value in the bottom, smaller element on the top
+
+      ((a,b) -> (a.equals(b) ? a.compareTo(b) : a-b);
+      //a.compareTo(b): give priority to smaller value in alphabetical order, a > b, so  store a first     
+      //a - b: give priority to smaller value, in list, store 1 first; in heap, 2 in bottom, 1 on top.      
+
 
 poll是队列数据结构实现类的方法，从队首获取元素，同时获取的这个元素将从原队列删除          
 remove() 和 poll() 方法都是从队列中删除第一个元素。remove() 的行为与 Collection 接口的版本相似，但是新的 poll() 方法在用空集合调用时不是抛出异常，只是返回 null。因此新的方法更适合容易出现异常条件的情况。     
