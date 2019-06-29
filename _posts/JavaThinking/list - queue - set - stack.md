@@ -162,5 +162,5 @@ peek() //get element from top of stack, but not remove it
 search(x) //determin element x in stack or not; if so, return 1; else, return -1       
 pop() will pop element out of stack and return the element; peek() will just get the value.     
 
-
+https://www.runoob.com/java/java-stack-class.html     
 
