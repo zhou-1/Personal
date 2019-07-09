@@ -15,7 +15,50 @@ Output: "255[.]100[.]50[.]0"
 Constraints:     
 The given address is a valid IPv4 address.      
 
+Solution:          
+<b> Java </b>        
+I. my solution    
 
+    public String defangIPaddr(String address) {
+        //prepare for result
+        String res = null;
+        
+        //check for extreme condition
+        if(address == null || address.length() <= 0){
+            return res;
+        }
+        
+        //SB for adding
+        StringBuilder SB = new StringBuilder();
+        
+        //check for every element
+        for(int i = 0; i < address.length(); ++i){
+            if(address.charAt(i) != '.'){
+                SB.append(address.charAt(i));
+            }
+            //it is '.'
+            else{
+                SB.append("[");
+                SB.append('.');
+                SB.append("]");
+            }
+        }
+        
+        res = SB.toString();
+        return res;
+    }
+
+II. One line    
+
+    public String defangIPaddr(String address) {
+        return address.replace(".", "[.]");
+    }
+
+
+<b> Python </b>        
+
+    def defangIPaddr(self, address: str) -> str:
+        return address.replace('.', '[.]')
 
 
 
