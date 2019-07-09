@@ -78,12 +78,53 @@ Constraints:
 1 <= bookings[i][2] <= 10000      
 
 
-Solution:      
+Solution:       
+<b> Java </b>     
+I. Straight forward with accumulate sum            
+Set the change of seats for each day.    
+If booking = [i, j, k], it needs k more seat on ith to jth day, and we don't need these seats on j+1th day.       
+We accumulate these changes then we have the result that we want.        
+Complexity      
+Time O(booking + N) for one pass on bookings; Space O(N) for the result      
+
+    public int[] corpFlightBookings(int[][] bookings, int n) {
+        //prepare for result
+        int[] answer = new int[n];
+        
+        //check for extreme condition
+        if(bookings == null || n <= 0){
+            return answer;
+        }
+        
+        for(int[] b : bookings){
+            answer[b[0] - 1] += b[2]; //往answer[]中加入b[]中对应的座位数
+            //check if last flight less than n
+            if(b[1] < n){
+                answer[b[1]] -= b[2];
+            }
+        }
+        
+        for(int i = 1; i < n; ++i){
+            answer[i] += answer[i-1];
+        }
+
+        return answer;
+        
+    }
 
 
 
+<b> Python </b>      
+I. Straight forward     
 
-
+    def corpFlightBookings(self, bookings, n):
+        res = [0] * (n + 1)
+        for i, j, k in bookings:
+            res[i - 1] += k
+            res[j] -= k
+        for i in xrange(1, n):
+            res[i] += res[i - 1]
+        return res[:-1]
 
 
 
