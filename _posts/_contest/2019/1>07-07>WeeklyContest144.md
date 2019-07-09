@@ -15,6 +15,7 @@ Output: "255[.]100[.]50[.]0"
 Constraints:     
 The given address is a valid IPv4 address.      
 
+
 Solution:          
 <b> Java </b>        
 I. my solution    
@@ -77,10 +78,26 @@ Constraints:
 1 <= bookings[i][2] <= 10000      
 
 
+Solution:      
+
+
+
+
+
+
+
+
 
 
 
 ### III) 1110. Delete Nodes And Return Forest (medium)      
+
+
+
+
+
+
+
 
 
 
