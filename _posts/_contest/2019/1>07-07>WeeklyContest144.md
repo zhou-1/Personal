@@ -80,7 +80,20 @@ Constraints:
 
 Solution:       
 <b> Java </b>     
-I. Straight forward with accumulate sum            
+I. Straight forward       
+
+    public int[] corpFlightBookings(int[][] bookings, int n) {
+        int[]res=new int[n];
+        for (int i=0;i<bookings.length;i++){
+            for (int j=bookings[i][0]-1;j<=bookings[i][1]-1;j++){
+                res[j]=res[j]+bookings[i][2];
+            }
+        }
+        return res;
+    }
+
+
+II. accumulate sum             
 Set the change of seats for each day.    
 If booking = [i, j, k], it needs k more seat on ith to jth day, and we don't need these seats on j+1th day.       
 We accumulate these changes then we have the result that we want.        
@@ -115,7 +128,7 @@ Time O(booking + N) for one pass on bookings; Space O(N) for the result
 
 
 <b> Python </b>      
-I. Straight forward     
+I. accumulate sum           
 
     def corpFlightBookings(self, bookings, n):
         res = [0] * (n + 1)
@@ -132,6 +145,23 @@ I. Straight forward
 
 
 ### III) 1110. Delete Nodes And Return Forest (medium)      
+Given the root of a binary tree, each node in the tree has a distinct value.      
+After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).      
+Return the roots of the trees in the remaining forest.  You may return the result in any order.        
+
+Example 1:     
+![Explain Image1](img/contest1-II-0.png )     
+Input: root = [1,2,3,4,5,6,7], to_delete = [3,5]      
+Output: [[1,2,null,4],[6],[7]]      
+ 
+
+Constraints:    
+The number of nodes in the given tree is at most 1000.    
+Each node has a distinct value between 1 and 1000.     
+to_delete.length <= 1000    
+to_delete contains distinct values between 1 and 1000.      
+
+
 
 
 
