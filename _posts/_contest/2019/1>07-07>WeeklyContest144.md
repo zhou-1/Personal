@@ -169,9 +169,10 @@ Solution:
 
 2. What does "return deleted ? null : node;" use for? Is it using for value of node.left / node.right?          
 The return value is used by the .left and .right of the upper level of recursion.      
+
 https://leetcode.com/problems/delete-nodes-and-return-forest/discuss/328853/JavaPython-Recursion-Solution      
 
-As I keep saying in my "courses", solve tree problem with recursion first.     
+##### Solve tree problem with recursion first.     
 Explanation      
 If a node is root (has no parent) and isn't deleted, when will we add it to the result.       
 
