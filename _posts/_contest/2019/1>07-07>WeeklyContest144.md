@@ -164,8 +164,11 @@ to_delete contains distinct values between 1 and 1000.
 
 Solution:       
 <b> Need updates!!!! </b>         
-Why we only need to add the root node of every tree? I mean, for example, "[1,2,null,4]" in "[[1,2,null,4],[6],[7]]", if we only add root node, it will be [[1],[6],[7], right?       
-What does "return deleted ? null : node;" use for? Is it using for value of node.left/node.right?        
+1. Why we only need to add the root node of every tree? I mean, for example, "[1,2,null,4]" in "[[1,2,null,4],[6],[7]]", if we only add root node, it will be [[1],[6],[7], right?       
+
+
+2. What does "return deleted ? null : node;" use for? Is it using for value of node.left / node.right?          
+The return value is used by the .left and .right of the upper level of recursion.      
 https://leetcode.com/problems/delete-nodes-and-return-forest/discuss/328853/JavaPython-Recursion-Solution      
 
 As I keep saying in my "courses", solve tree problem with recursion first.     
@@ -238,7 +241,7 @@ If a node is root (has no parent) and isn't deleted, when will we add it to the 
 
 
 
-### IV) 1111. Maximum Nesting Depth of Two Valid Parentheses Strings       
+### IV) 1111. Maximum Nesting Depth of Two Valid Parentheses Strings (medium)             
 
 
 
