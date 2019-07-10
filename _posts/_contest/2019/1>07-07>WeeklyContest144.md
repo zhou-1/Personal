@@ -163,7 +163,7 @@ to_delete contains distinct values between 1 and 1000.
 
 
 Solution:       
-<b> Need updates!!!! </b>         
+<b> Updated!!!! </b>         
 1. Why we only need to add the root node of every tree? I mean, for example, "[1,2,null,4]" in "[[1,2,null,4],[6],[7]]", if we only add root node, it will be [[1],[6],[7], right?       
 "[1, 2, null, 4]" is simply a way to represent/express a tree structure, since we can't use plain text to actually draw a tree. This way of the representation is "accidentally" same as the way that we usually use to represent an array, but logically it is not an array. Logically it is representing a tree.     
 Apart from text, there are many other ways to represent a tree. For example, using the root node of the tree to represent the tree.    
