@@ -258,6 +258,24 @@ Given a VPS seq, split it into two disjoint subsequences A and B, such that A an
 Now choose any such A and B such that max(depth(A), depth(B)) is the minimum possible value.       
 Return an answer array (of length seq.length) that encodes such a choice of A and B:  answer[i] = 0 if seq[i] is part of A, else answer[i] = 1.  Note that even though multiple answers may exist, you may return any of them.      
 
+Example 1:   
+Input: seq = "(()())"      
+Output: [0,1,1,1,1,0]     
+
+Example 2:       
+Input: seq = "()(())()"    
+Output: [0,0,0,1,1,0,1,1]     
+
+Constraints:     
+1 <= seq.size <= 10000      
+
+
+Solution:     
+
+
+
+
+
 
 
 
