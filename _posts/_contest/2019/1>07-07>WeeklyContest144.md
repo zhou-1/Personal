@@ -276,9 +276,12 @@ Constraints:
 Solution:     
 I.Alternatively Distribute Parentheses         
 Basically, ( is 1 point, ) is -1 point. We try to keep total points of two groups even, by distributing parentheses alternatively.     
-II.
+II.Keep Two Group Even. Count the number of open parentheses of group A and group B.       
+III.
 
-I.Alternatively Distribute Parentheses         
+I.Alternatively Distribute Parentheses          
+Time O(N) for one pass     
+Space O(N) for output    
 <b> Java </b>    
 
     public int[] maxDepthAfterSplit(String seq) {
@@ -297,6 +300,7 @@ I.Alternatively Distribute Parentheses
         return res;
     }
 
+II.Keep Two groups even.     
 
 
 
