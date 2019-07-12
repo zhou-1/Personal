@@ -277,7 +277,8 @@ Solution:
 I.Alternatively Distribute Parentheses         
 Basically, ( is 1 point, ) is -1 point. We try to keep total points of two groups even, by distributing parentheses alternatively.     
 II.Keep Two Group Even. Count the number of open parentheses of group A and group B.       
-III.
+III.Split by Half. Count the number of level of whole string. Then split it by half. Group 0: the part under the half height Group 1: the part above the half height.       
+https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/discuss/328841/JavaC%2B%2BPython-Several-Ideas    
 
 I.Alternatively Distribute Parentheses          
 Time O(N) for one pass     
@@ -301,18 +302,87 @@ Space O(N) for output
     }
 
 II.Keep Two groups even.     
+<b> Java </b>     
 
+    public int[] maxDepthAfterSplit(String seq) {
+        int A = 0, B = 0, n = seq.length();
+        int[] res = new int[n];
+        for (int i = 0; i < n; ++i) {
+            if (seq.charAt(i) == '(') {
+                if (A < B) {
+                    ++A;
+                } else {
+                    ++B;
+                    res[i] = 1;
+                }
+            } else {
+                if (A > B) {
+                    --A;
+                } else {
+                    --B;
+                    res[i] = 1;
+                }
+            }
+        }
+        return res;
+    }
 
+<b> Python </b>    
 
+    def maxDepthAfterSplit(self, seq):
+        A = B = 0
+        res = [0] * len(seq)
+        for i, c in enumerate(seq):
+            v = 1 if c == '(' else -1
+            if (v > 0) == (A < B):
+                A += v
+            else:
+                B += v
+                res[i] = 1
+        return res
 
+III.Split by Half     
+<b> Java </b>    
 
+    public int[] maxDepthAfterSplit(String seq) {
+        int depth = 0, cur = 0, n = seq.length();
+        for (int i = 0; i < n; ++i) {
+            cur +=  seq.charAt(i) == '(' ?  1 : -1;
+            depth = Math.max(depth, cur);
+        }
+        int[] res = new int[n];
+        for (int i = 0; i < n; ++i) {
+            if (seq.charAt(i) == '(') {
+                if (++cur > depth / 2)
+                    res[i] = 1;
+            } else {
+                if (cur-- > depth / 2)
+                    res[i] = 1;
+            }
+        }
+        return res;
+    }
 
+<b> Python </b>       
 
-
-
-
-
-
+    def maxDepthAfterSplit(self, seq):
+        depth = cur = 0
+        for c in seq:
+            if c == '(':
+                cur += 1
+                depth = max(depth, cur)
+            else:
+                cur -= 1
+        half = depth / 2
+        res = [0] * len(seq)
+        for i, c in enumerate(seq):
+            if c == '(':
+                cur += 1
+                if cur > half: res[i] = 1
+            else:
+                if cur > half: res[i] = 1
+                cur -= 1
+        return res
 
 
 
