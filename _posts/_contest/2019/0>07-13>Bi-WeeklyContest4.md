@@ -1,6 +1,24 @@
 
 
-### 1119. Remove Vowels from a String        
+### I) 1118. Number of Days in a Month        
+
+
+
+### II) 1119. Remove Vowels from a String        
+Given a string S, remove the vowels 'a', 'e', 'i', 'o', and 'u' from it, and return the new string.      
+
+Example 1:    
+Input: "leetcodeisacommunityforcoders"    
+Output: "ltcdscmmntyfrcdrs"    
+
+Example 2:     
+Input: "aeiou"    
+Output: ""    
+ 
+Note:    
+S consists of lowercase English letters only.     
+1 <= S.length <= 1000    
+
 
 My solution
 I. StringBuilder for every element
@@ -46,6 +64,10 @@ II. easy method with replace()
         
     }
 
+III. replaceAll()    
 
+    public String removeVowels(String S) {
+        return S.replaceAll("[a,e,i,o,u]", "");
+    }
 
 
