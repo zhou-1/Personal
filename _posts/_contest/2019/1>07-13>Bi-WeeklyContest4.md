@@ -104,3 +104,14 @@ III. replaceAll()
     }
 
 
+### III) 1120. Maximum Average Subtree      
+Given the root of a binary tree, find the maximum average value of any subtree of that tree.    
+(A subtree of a tree is any node of that tree plus all its descendants. The average value of a tree is the sum of its values, divided by the number of nodes.)     
+
+Example 1:       
+![Explain Image1](img/Bi-contest1-III-0.png )    
+
+
+
+
+
