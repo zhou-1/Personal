@@ -110,6 +110,48 @@ Given the root of a binary tree, find the maximum average value of any subtree o
 
 Example 1:       
 ![Explain Image1](img/Bi-contest1-III-0.png )    
+Input: [5,6,1]    
+Output: 6.00000       
+
+Explanation:      
+For the node with value = 5 we have and average of (5 + 6 + 1) / 3 = 4.    
+For the node with value = 6 we have and average of 6 / 1 = 6.    
+For the node with value = 1 we have and average of 1 / 1 = 1.     
+So the answer is 6 which is the maximum.    
+
+Note:     
+The number of nodes in the tree is between 1 and 5000.     
+Each node will have a value between 0 and 100000.      
+Answers will be accepted as correct if they are within 10^-5 of the correct answer.     
+
+https://leetcode.com/contest/biweekly-contest-4/problems/maximum-average-subtree/     
+
+
+
+### IV) Divide Array Into Increasing Sequences       
+Given a non-decreasing array of positive integers nums and an integer K, find out if this array can be divided into one or more disjoint increasing subsequences of length at least K.      
+
+Example 1:     
+Input: nums = [1,2,2,3,3,4,4], K = 3    
+Output: true      
+Explanation:      
+The array can be divided into the two subsequences [1,2,3,4] and [2,3,4] with lengths at least 3 each.      
+
+Example 2:      
+Input: nums = [5,6,6,7,8], K = 3    
+Output: false    
+Explanation:      
+There is no way to divide the array using the conditions required.    
+
+Note:     
+1 <= nums.length <= 10^5   
+1 <= K <= nums.length    
+1 <= nums[i] <= 10^5      
+
+https://leetcode.com/contest/biweekly-contest-4/problems/divide-array-into-increasing-sequences/     
+
+
+
 
 
 
