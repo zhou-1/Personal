@@ -20,5 +20,34 @@ Solution:
 My solution. HashMap<element, freq> to record each element and its frequence in arr1. First iterate for each element in arr2, then iterate for remaining elements.     
 https://leetcode.com/problems/relative-sort-array/discuss/334576/Java-HashMap-solution       
 
+Custom sorting.    
+First, count each number in arr1; then sort the common numbers in both arrays; last sort the numbers only in arr1.     
+<b> Java </b>     
+
+    public int[] relativeSortArray(int[] arr1, int[] arr2) {
+        int k = 0;
+        int[] cnt = new int[1001], ans = new int[arr1.length];
+        for (int i : arr1)                      // Count each number in arr1.
+            ++cnt[i];
+        for (int i : arr2)                      // Sort the common numbers in both arrays.
+            while (cnt[i]-- > 0)
+                ans[k++] = i;
+        for (int i = 0; i < 1001; ++i)          // Sort the numbers only in arr1.
+            while (cnt[i]-- > 0)
+                ans[k++] = i;
+        return ans;
+    }
+
+
+<b> Python </b>      
+
+    def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
+        ans, cnt = [], collections.Counter(arr1)         # Count each number in arr1
+        for i in arr2:
+            if cnt[i]: ans.extend([i] * cnt.pop(i))      # Sort the common numbers in both arrays. 
+        for i in range(1001):               
+            if cnt[i]: ans.extend([i] * cnt.pop(i))      # Sort the numbers only in arr1.
+        return ans
+
 
 
