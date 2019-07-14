@@ -12,4 +12,6 @@ arr1.length, arr2.length <= 1000
 Each arr2[i] is distinct.    
 Each arr2[i] is in arr1.      
 
+Difficult part: List<Integer>, Integer[], int[].          
+https://blog.csdn.net/weixin_41615787/article/details/85115620      
 
