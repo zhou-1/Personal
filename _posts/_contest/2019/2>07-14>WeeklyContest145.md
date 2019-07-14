@@ -12,6 +12,13 @@ arr1.length, arr2.length <= 1000
 Each arr2[i] is distinct.    
 Each arr2[i] is in arr1.      
 
-Difficult part: List<Integer>, Integer[], int[].          
+
+<b> Difficult part: List<Integer>, Integer[], int[]. </b>             
 https://blog.csdn.net/weixin_41615787/article/details/85115620      
+
+Solution:    
+My solution. HashMap<element, freq> to record each element and its frequence in arr1. First iterate for each element in arr2, then iterate for remaining elements.     
+https://leetcode.com/problems/relative-sort-array/discuss/334576/Java-HashMap-solution       
+
+
 
