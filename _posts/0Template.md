@@ -1,7 +1,7 @@
 ---
-title: 111. Minimum Depth of Binary Tree (Easy)                   
+title: 1. XXX (Easy)                   
 author: zhou      
-tags: [Tree, Depth-first Search, Breadth-first Search]            
+tags: [XXXX, XXX XXX]            
 ---
 
        
