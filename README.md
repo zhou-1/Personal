@@ -7,7 +7,7 @@ Fall 2019 - current. M.S. Boston University. Electrical & Computer Engineering.
 Fall 2014 - Dec 2018. B.A. Marquette University. Computer Engineering - intelligent system & Mathematics.    
 
 ## Work Experience   
-Jan 2019 - current. Software Develop Engineer Intern. Hikvision company.      
+Jan 2019 - July 2019. Software Develop Engineer Intern. Hikvision company.      
 Jan 2018 - Dec 2018. Lab Researcher. COVISS lab.    
 Aug 2017 - Dec 2017. General Engineering Teaching Assistant. Department of Engineering @MU.    
 May 2017 - Aug 2017. Web Developer Intern. ExpressToChina company @Milwaukee&Chicago.   
