@@ -1,5 +1,7 @@
 # [Welcome to Zhou's Blog!](https://zhou-1.github.io/)     
 
+[Personal basic website with personal typed HTML & CSS - old version](https://zhou-1.github.io/Personal-typed-own-site/)     
+
 <hr>
 
 ## Education
