@@ -74,7 +74,7 @@ Some other projects exist in my Github.
 ## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
-## [Interests]           
+## Interests             
 Fly drone and make small videos.   
 Travel and maintain my own blog.     
 Volunteer especially in animal-care stuff.       
