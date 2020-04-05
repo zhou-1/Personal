@@ -9,6 +9,7 @@ Fall 2019 - current. M.S. Boston University. Electrical & Computer Engineering.
 Fall 2014 - Dec 2018. B.A. Marquette University. Computer Engineering - intelligent system & Mathematics.    
 
 ## Work Experience   
+Feb 2020 - Current. Student Technician / Programmer. Boston University.    
 Jan 2019 - July 2019. Software Develop Engineer Intern. Hikvision company.      
 Jan 2018 - Dec 2018. Lab Researcher. COVISS lab.    
 Aug 2017 - Dec 2017. General Engineering Teaching Assistant. Department of Engineering @MU.    
@@ -20,12 +21,26 @@ Aug 2015 - Dec 2015. Mathematics Teaching Assistant. Department of MSCS @MU.
 
 
 ## Projects & Papers   
-[papers]      
+### [papers]      
 [FreeLabel: A Publicly Available Annotation Tool based on Freehand Traces](https://arxiv.org/abs/1902.06806#)      
 Accepted and presented at 2019 IEEE Winter Conference on Applications of Computer Vision (WACV). 10 pages    
 
-[Projects]  
-[Academic]    
+### [Projects]     
+#### [Industrial]    
+[Networking Inside of Kubernetes with Redhat & Bose]()
+Still going, will add more!    
+Minimum acceptance criteria is that compared with current Raft algorithm, creating a faster and stable algorithm with “gossip protocol”.   
+
+[Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
+Software Projects about industrial camera, computer vision and algorithms in C++ and JAVA.        
+
+[GE Healthcare Hackathon](https://github.com/zhou-1/predix-engine-dashboard)    
+Won the First prize in the GE Healthcare Hackathon 2017.     
+
+[Insurance-Data-Hackathon](https://github.com/zhou-1/Insurance-Data-Hackathon)      
+Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
+
+#### [Academic]    
 [IoT-connected-devices with Machine Learing](https://github.com/zhou-1/IoT-connected-devices)     
 Senior-year-design project for Direct Supply.    
 
@@ -42,16 +57,6 @@ Find the cheapest airline information with Hashtable and Quicksort methods.
 An embedded system project for teaching kids Math at home.    
 
 Some other projects exist in my Github.   
-
-[Industrial]    
-[Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
-Software Projects about industrial camera, computer vision and algorithms in C++ and JAVA.        
-
-[GE Healthcare Hackathon](https://github.com/zhou-1/predix-engine-dashboard)    
-Won the First prize in the GE Healthcare Hackathon 2017.     
-
-[Insurance-Data-Hackathon](https://github.com/zhou-1/Insurance-Data-Hackathon)      
-Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
 
 ## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
