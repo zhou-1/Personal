@@ -27,9 +27,18 @@ Accepted and presented at 2019 IEEE Winter Conference on Applications of Compute
 
 ### [Projects]     
 #### [Industrial]    
-[Networking Inside of Kubernetes with Redhat & Bose]()
+[Networking Inside of Kubernetes with Redhat & Bose]()      
 Still going, will add more!    
 Minimum acceptance criteria is that compared with current Raft algorithm, creating a faster and stable algorithm with “gossip protocol”.   
+
+[HomeRight project for HackForInclusion (Hosted by MIT, Microsoft, Google, HubSpot and more)](https://github.com/zhou-1/HackForInclusion)      
+The goal of our project is predicting who will be homeless tomorrow based on PIT and HIC DataSet and finding a shulter as a home for that family asap.    
+We used online ML models to train the data and predict result; used Vue.js to implement an awesome UI.    
+
+[PainDetector project in HackED (Hosted by BUild Lab & Boston medical center and more)](https://github.com/zhou-1/PainDetector)   
+Webpage for users can interact with.   
+User can point out the pain area of whole body and show doctors the intensity.    
+It is built in bootcamp and JS.    
 
 [Projects in Hikvision Intern](https://github.com/zhou-1/projectsInHikIntern)        
 Software Projects about industrial camera, computer vision and algorithms in C++ and JAVA.        
@@ -41,6 +50,10 @@ Won the First prize in the GE Healthcare Hackathon 2017.
 Won the Best algorithm prize. Based on big data from NWMutual, predict who/which sales representative will stay in next year.        
 
 #### [Academic]    
+[Academical community for students project](https://github.com/zhou-1/Community-for-students-have-same-interests-in-courses)      
+Get recommanded courses based on your own choices and our algorithm, communicate and make friends in our accademic web community.    
+Deploy a django app through azure/AWS.     
+
 [IoT-connected-devices with Machine Learing](https://github.com/zhou-1/IoT-connected-devices)     
 Senior-year-design project for Direct Supply.    
 
@@ -61,13 +74,11 @@ Some other projects exist in my Github.
 ## Technical Paragraphs
 View Zhou's [Zhihu paragraphs in Chinese](https://www.zhihu.com/people/zhou-65-48/posts).
 
-## [Interests](https://github.com/zhou-1/Interests)          
-Create basic AR.      
+## [Interests]           
 Fly drone and make small videos.   
 Travel and maintain my own blog.     
 Volunteer especially in animal-care stuff.       
 Write my own fiction.       
-
 
 ## Github
 View Zhou's [GitHub](https://github.com/zhou-1).
