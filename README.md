@@ -1,7 +1,7 @@
 # [Welcome to Zhou's Blog!](https://zhou-1.github.io/)     
 
 ## Version 2 [My working experiences webpage in BootStrap4](https://zhou-1.github.io/Bootstrap4-personalweb/)     
-## Version 1 [Personal basic website with personal typed HTML & CSS - old version](https://zhou-1.github.io/Personal-typed-own-site/)     
+## Version 1 [Personal basic website with personal typed HTML & CSS](https://zhou-1.github.io/Personal-typed-own-site/)     
 
 <hr>
 
