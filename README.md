@@ -6,7 +6,7 @@
 <hr>
 
 ## Education
-Fall 2019 - current. M.S. Boston University. Electrical & Computer Engineering.     
+Fall 2019 - Current. M.S. Boston University. Electrical & Computer Engineering.     
 Fall 2014 - Dec 2018. B.A. Marquette University. Computer Engineering - intelligent system & Mathematics.    
 
 ## Work Experience   
