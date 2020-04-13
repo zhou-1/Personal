@@ -1,5 +1,6 @@
 # [Welcome to Zhou's Blog!](https://zhou-1.github.io/)     
 
+## Version 3 [Local Resume Web in React JS](https://github.com/zhou-1/ReactJS_Resume)      
 ## Version 2 [My working experiences webpage in BootStrap4](https://zhou-1.github.io/Bootstrap4-personalweb/)     
 ## Version 1 [Personal basic website with personal typed HTML & CSS](https://zhou-1.github.io/Personal-typed-own-site/)     
 
