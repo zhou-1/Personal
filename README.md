@@ -87,15 +87,6 @@ View Zhou's [GitHub](https://github.com/zhou-1).
 
 
 ## Kaggle
-View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice).
-
-
-## LeetCode Thoughts    
-{% for post in site.posts %}
-
-{{ post.date|date_to_string }} <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
-
-{% endfor %}  
-
+View Zhou's [Kaggle](https://www.kaggle.com/dragonpolice). 
 
 
